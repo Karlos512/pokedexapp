@@ -1,0 +1,36 @@
+body{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#cardPokemon{
+    margin-top: 30px;;
+    width: 25rem;
+    color: white;
+    background-color: rgba(250, 243, 243, 0.2);
+}
+
+
+#buscar {
+    transition: transform .2s; 
+}
+ 
+#buscar:hover {
+    transform: scale(1.5); 
+}
+
+#galery{
+    align-content: center;
+    align-items: center;
+}
+
+#cardpokemon{
+    color: white;
+    background-color: rgba(250, 243, 243, 0.2);
+}
+
+#cardpokemon img:hover{
+    transform: scale(1.5);
+}
